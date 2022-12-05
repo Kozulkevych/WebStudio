@@ -1,14 +1,16 @@
 /* ----------Чим ми займаємося---------- */
-
+.works {
+  display: none;
+  @include desktop {
+    display: block;
+}
+}
 .works__section {
     padding-top: 0;
   }
 
 .works__list {
-  display: none;
-  @include desktop {
   display: flex;
-}
 }
 
 .works__item:not(:last-child) {

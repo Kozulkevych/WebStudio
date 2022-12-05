@@ -921,17 +921,21 @@ img {
 }
 
 /* ----------Чим ми займаємося---------- */
+.works {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .works {
+    display: block;
+  }
+}
+
 .works__section {
   padding-top: 0;
 }
 
 .works__list {
-  display: none;
-}
-@media screen and (min-width: 1200px) {
-  .works__list {
-    display: flex;
-  }
+  display: flex;
 }
 
 .works__item:not(:last-child) {
