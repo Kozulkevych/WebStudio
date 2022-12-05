@@ -5,7 +5,7 @@
 }
 
 .features__item {
-  flex-basis: calc((100% - 0 * 30px) / 1);
+  flex-basis: 100%;
   @include tablet {
     flex-basis: calc((100% - 1 * 30px) / 2);
   }
@@ -23,12 +23,6 @@
   border-radius: 4px;
   align-items: center;
   margin-bottom: 30px;
-  @include tablet {
-  }
-  @include desktop {
-    width: 270px;
-    height: 120px;
-  }
 }
 
 .features__title {

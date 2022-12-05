@@ -1,12 +1,14 @@
 /* ----------Чим ми займаємося---------- */
 
 .works__section {
-  padding-top: 0;
   @include mobile {
     display: none;
   }
   @include tablet {
     display: none;
+  }
+  @include desktop {
+  padding-top: 0;
   }
 }
 
