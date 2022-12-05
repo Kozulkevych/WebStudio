@@ -921,24 +921,17 @@ img {
 }
 
 /* ----------Чим ми займаємося---------- */
-@media screen and (min-width: 480px) {
-  .works__section {
-    display: none;
-  }
-}
-@media screen and (min-width: 768px) {
-  .works__section {
-    display: none;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .works__section {
-    padding-top: 0;
-  }
+.works__section {
+  padding-top: 0;
 }
 
 .works__list {
-  display: flex;
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .works__list {
+    display: flex;
+  }
 }
 
 .works__item:not(:last-child) {

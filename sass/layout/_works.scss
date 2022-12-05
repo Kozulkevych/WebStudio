@@ -1,19 +1,14 @@
 /* ----------Чим ми займаємося---------- */
 
 .works__section {
-  @include mobile {
-    display: none;
+    padding-top: 0;
   }
-  @include tablet {
-    display: none;
-  }
-  @include desktop {
-  padding-top: 0;
-  }
-}
 
 .works__list {
+  display: none;
+  @include desktop {
   display: flex;
+}
 }
 
 .works__item:not(:last-child) {
