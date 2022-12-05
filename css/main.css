@@ -1105,10 +1105,6 @@ img {
 }
 
 /* ----------Проекти---------- */
-.projects__box {
-  flex-grow: 1;
-}
-
 .projects__list {
   display: flex;
   flex-wrap: wrap;
@@ -1170,6 +1166,7 @@ img {
 }
 
 .projects__content {
+  flex-grow: 1;
   background-color: var(--primary-light-bg-color);
   border-left: 1px solid var(--secondary-border-color);
   border-right: 1px solid var(--secondary-border-color);
