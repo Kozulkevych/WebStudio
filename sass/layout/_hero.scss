@@ -4,8 +4,6 @@
   padding: 118px 0;
   width: 100%;
   max-height: 400px;
-  margin-left: auto;
-  margin-right: auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,32 +14,33 @@
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url('../images/hero-480@2x-min.jpg');
   }
+
   @include mobile {
     background-size: cover;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url('../images/hero-768@1x-min.jpg');
-
+  
     @include retina-bgi {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url('../images/hero-768@2x-min.jpg');
     }
-  }
+}
      @include tablet {
        background-size: cover;
        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
          url('../images/hero-1200@1x-min.jpg');
-  
+     
        @include retina-bgi {
          background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
            url('../images/hero-1200@2x-min.jpg');
        }
-     }
+     }  
   @include desktop {
     padding: 200px 0;
     max-width: 1600px;
     max-height: 600px;
   }
- }
+}
 
 .hero__title {
   color: var(--secondary-ligh-text-color);
