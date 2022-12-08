@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  
 }
 
 .features__item {
@@ -21,7 +22,6 @@
   height: 120px;
   background-color: var(--secondary-light-bg-color);
   border-radius: 4px;
-  align-items: center;
   margin-bottom: 30px;
 }
 

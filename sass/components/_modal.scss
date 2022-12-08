@@ -6,23 +6,27 @@
   transform: translateX(-50%) scale(1);
   transition: transform 250ms var(--timing-function);
   width: 100%;
-  max-height: 609px;
+  height: 100%;
   background-color: var(--primary-light-bg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   @include mobile {
+    min-width: 450px;
+    max-height: 609px;
+  }
+  @include tablet {
     max-width: 450px;
     }
   @include desktop {
     top: 50%;
     transform: translate(-50%, -50%) scale(1);
     max-width: 528px;
-    max-height: 581px;
+    mmax-height: 581px;
   }
   .backdrop.is-hidden & {
     transform: translateX(-50%) scale(0.6);
-    @include mobile {
+    @include desktop {
       transform: translate(-50%, -50%) scale(0.6);
     }
   }
@@ -85,9 +89,9 @@
 .modal__icon {
   position: absolute;
   display: flex;
-  top: 50%;
+  top: 55%;
   left: 12px;
-  transform: translateY(-40%);
+  transform: translateY(-50%);
   width: 18px;
   height: 18px;
   fill: var(--title-text-color);
