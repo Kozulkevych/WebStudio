@@ -22,7 +22,7 @@
     top: 50%;
     transform: translate(-50%, -50%) scale(1);
     max-width: 528px;
-    mmax-height: 581px;
+    max-height: 581px;
   }
   .backdrop.is-hidden & {
     transform: translateX(-50%) scale(0.6);
