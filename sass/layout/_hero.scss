@@ -37,7 +37,8 @@
      }  
   @include desktop {
     padding: 200px 0;
-    max-width: 1600px;
+    max-height: 1600px;
+    margin: 0 auto;
     max-height: 600px;
   }
 }

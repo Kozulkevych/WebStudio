@@ -257,7 +257,7 @@ img {
     top: 50%;
     transform: translate(-50%, -50%) scale(1);
     max-width: 528px;
-    mmax-height: 581px;
+    max-height: 581px;
   }
 }
 .backdrop.is-hidden .modal {
@@ -847,7 +847,8 @@ img {
 @media screen and (min-width: 1200px) {
   .hero-section {
     padding: 200px 0;
-    max-width: 1600px;
+    max-height: 1600px;
+    margin: 0 auto;
     max-height: 600px;
   }
 }
